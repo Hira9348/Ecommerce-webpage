@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "@/Pictures/Hero.png";
+import HeroImage from "./Pictures/Hero.png";
 export default function Hero() {
   return (
     <>
