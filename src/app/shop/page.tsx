@@ -1,19 +1,19 @@
-import Image from "next/image"
-import ShopImage from "@/Pictures/shophero.png"
+import Image from "next/image";
+import ShopImage from "@/Pictures/shophero.png";
 import { IoIosArrowForward } from "react-icons/io";
-import Products from "@/Components/products";
-import BlowHero from "@/Components/ShopBlowHero";
+import Products from "@/components/Products";
+import BlowHero from "@/components/ShopBlowHero";
+import SecondLastBar from "@/components/Shop2ndLastBar";
 
+export default function ShopHero() {
+  interface Card {
+    name: string;
+    age: number;
+    description: string;
+    image: string;
+    price: string;
+  }
 
-export default function ShopHero(){
-
-    interface Card{
-        name: string,
-        age: number,
-        description: string,
-        image: string,
-        price: string,
-      }
 
     const data: Card[] = [
         {

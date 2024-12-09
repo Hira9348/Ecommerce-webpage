@@ -2,7 +2,7 @@
 
 
 import Image from "next/image";
-import Logo from "./Pictures/Logo.png";
+import Logo from "../Pictures/Logo.png"
 import Link from "next/link";
 import { MdPersonOutline } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";

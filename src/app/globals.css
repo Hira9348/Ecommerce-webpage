@@ -26,9 +26,6 @@
 
 /* ---------------------- HERO SECTION ----------------------------------- */
 .heroImage {
-  position: left;
-  display: flex;
-  
   /* width: 50rem;
   height: 63rem; */
 }
@@ -129,6 +126,30 @@
   position: absolute;
   top: 35%;
   left: 50%;
+}
+
+
+
+/* -------------------------- SHOW BLOW BAAR----------------------------------------------- */
+
+.showBlowBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.showBlowBar .firstRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.showBlowBar .secondRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 
