@@ -8,7 +8,7 @@ export default function Hero() {
         <Image
         
           src={HeroImage}
-          width={1440}
+          width={1400}
           height={100}
           alt="Picture of the author"
         />
